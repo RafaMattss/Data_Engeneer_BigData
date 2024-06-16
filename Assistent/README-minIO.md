@@ -1,4 +1,3 @@
-Peço desculpas pela omissão. Aqui está o README para o MinIO com os objetivos detalhados:
 
 ---
 
@@ -7,8 +6,6 @@ Peço desculpas pela omissão. Aqui está o README para o MinIO com os objetivos
 ## Objetivo
 
 O objetivo deste ambiente de laboratório é permitir que você explore e aprenda sobre o MinIO, um sistema de armazenamento de objetos de alta performance e escalável. Você será capaz de configurar o MinIO, criar buckets, carregar dados e interagir com ele através de exemplos práticos.
-
-Claro, aqui estão as configurações detalhadas do MinIO em tópicos:
 
 ### Pré-requisitos do Lab
 
@@ -118,8 +115,6 @@ Essas configurações garantem que o serviço MinIO seja configurado e executado
    mc mb mybucket
    mc cp /path/to/local/file mybucket/
    ```
-
-Claro, aqui estão os objetivos detalhados em tópicos:
 
 ## Resultados Esperados
 

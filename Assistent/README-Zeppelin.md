@@ -9,9 +9,6 @@
   - Java JDK: 8 ou superior
 - **Dados Mocks**: Prepare conjuntos de dados de teste que serão utilizados nos notebooks do Zeppelin.
 - **Emulação de Network**: Configuração de rede que simule um ambiente de produção.
-- **Chocolatey**: Certifique-se de que todos os pré-requisitos necessários estão liberados no nosso chocolatey, como:
-  - openjdk8
-  - docker
 
 ### 2. Como Fazer o Setup
 
@@ -36,8 +33,7 @@ docker run -d -p 8080:8080 --name zeppelin apache/zeppelin:0.9.0
 ### 3. Descrição dos Passos do Lab
 
 #### Objetivo do Lab
-Configurar e utilizar o Apache Zeppelin para criar e compartilhar relatórios baseados em dados.
-
+O objetivo deste laboratório é configurar e utilizar o Apache Zeppelin para criar, compartilhar e executar análises interativas e relatórios baseados em dados. Vamos explorar as principais funcionalidades do Zeppelin, incluindo a criação de notebooks, execução de código em diferentes interpretadores (como Apache Spark), visualização de dados, compartilhamento de notebooks e integração com outras ferramentas da sandbox.
 #### Passo a Passo
 
 1. **Preparar Ambiente**:

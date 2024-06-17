@@ -27,8 +27,8 @@ Essas configurações garantem que o serviço MinIO seja configurado e executado
    Defina as variáveis de ambiente necessárias no arquivo `.bashrc`:
 
    ```bash
-   export MINIO_ACCESS_KEY=minio_user
-   export MINIO_SECRET_KEY=minio_password
+   export MINIO_ACCESS_KEY=minioadmin
+   export MINIO_SECRET_KEY=minioadmin
    ```
 
 3. **Inicializar o MinIO**
@@ -37,8 +37,8 @@ Essas configurações garantem que o serviço MinIO seja configurado e executado
 
    ```bash
    docker run -p 9000:9000 --name minio \
-     -e "MINIO_ACCESS_KEY=minio_user" \
-     -e "MINIO_SECRET_KEY=minio_password" \
+     -e "MINIO_ACCESS_KEY=minioadmin" \
+     -e "MINIO_SECRET_KEY=minioadmin" \
      minio/minio server /data
    ```
 
@@ -74,8 +74,8 @@ Essas configurações garantem que o serviço MinIO seja configurado e executado
    Defina as variáveis de ambiente necessárias no arquivo `.bashrc`:
 
    ```bash
-   export MINIO_ACCESS_KEY=minio_user
-   export MINIO_SECRET_KEY=minio_password
+   export MINIO_ACCESS_KEY=minioadmin
+   export MINIO_SECRET_KEY=minioadmin
    ```
 
 3. **Inicializar MinIO**
@@ -84,8 +84,8 @@ Essas configurações garantem que o serviço MinIO seja configurado e executado
 
    ```bash
    docker run -p 9000:9000 --name minio \
-     -e "MINIO_ACCESS_KEY=minio_user" \
-     -e "MINIO_SECRET_KEY=minio_password" \
+     -e "MINIO_ACCESS_KEY=minioadmin" \
+     -e "MINIO_SECRET_KEY=minioadmin" \
      minio/minio server /data
    ```
 

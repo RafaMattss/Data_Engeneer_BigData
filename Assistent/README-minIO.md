@@ -22,24 +22,6 @@ O objetivo deste ambiente de laboratório é permitir que você explore e aprend
 
 Essas configurações garantem que o serviço MinIO seja configurado e executado corretamente no ambiente Docker. Certifique-se de ajustar os caminhos dos volumes e as versões da imagem conforme necessário para o seu ambiente específico.
 
-## Como Configurar
-
-1. **Preparar o Ambiente**
-
-   Instale o Docker utilizando o Chocolatey no Windows ou apt-get no Ubuntu:
-
-   ```bash
-   choco install docker-desktop
-   ```
-
-   ou
-
-   ```bash
-   sudo apt-get install docker-ce docker-ce-cli containerd.io
-   ```
-
-   Certifique-se de ter todos os dados mocks necessários disponíveis para os testes.
-
 2. **Configurar o MinIO**
 
    Defina as variáveis de ambiente necessárias no arquivo `.bashrc`:

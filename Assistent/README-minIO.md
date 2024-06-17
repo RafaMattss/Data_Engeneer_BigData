@@ -3,7 +3,7 @@
 
 # MinIO Sandbox
 
-## Objetivo
+## 1.Objetivo
 
 O objetivo deste ambiente de laboratório é permitir que você explore e aprenda sobre o MinIO, um sistema de armazenamento de objetos de alta performance e escalável. Você será capaz de configurar o MinIO, criar buckets, carregar dados e interagir com ele através de exemplos práticos.
 
@@ -22,7 +22,7 @@ O objetivo deste ambiente de laboratório é permitir que você explore e aprend
 
 Essas configurações garantem que o serviço MinIO seja configurado e executado corretamente no ambiente Docker. Certifique-se de ajustar os caminhos dos volumes e as versões da imagem conforme necessário para o seu ambiente específico.
 
-2. **Configurar o MinIO**
+## 2. **Configurar o MinIO**
 
    Defina as variáveis de ambiente necessárias no arquivo `.bashrc`:
 

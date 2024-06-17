@@ -30,8 +30,6 @@ docker pull apache/hive:3.1.2
 docker run -d -p 10000:10000 --name hive apache/hive:3.1.2
 ```
 
-Claro, aqui estão exemplos específicos para cada passo:
-
 ### 3. Descrição dos Passos do Lab
 
 #### Passo 1: Preparar Ambiente

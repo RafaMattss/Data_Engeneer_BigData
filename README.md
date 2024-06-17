@@ -23,12 +23,12 @@ Requisitos Obrigatórios do repositório
 1. GitFlow/git
 
 2. Documentação de repositório
-		2.1. Licença 
-		2.2. Documento de contributing
-		2.3. Versionamento de Projeto
-		2.4. changeLog
-		2.5. Apresentar Documentação minima UML versionado, de acordo com o Lab projetado obrigatoriamente diagrama de sequência 
+	- 2.1. Licença 
+	- 2.2. Documento de contributing
+	- 2.3. Versionamento de Projeto
+	- 2.4. changeLog
+	- 2.5. Apresentar Documentação minima UML versionado, de acordo com o Lab projetado obrigatoriamente diagrama de sequência 
 3. Quality Gate
-		3.1 Sonar
-		3.2 Proibido Prints (utilizar apenas Log)
+	- 3.1 Sonar
+	- 3.2 Proibido Prints (utilizar apenas Log)
 4. Dockerfile
